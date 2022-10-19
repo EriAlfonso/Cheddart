@@ -127,12 +127,13 @@ h1{
 .homeimages {
     width: 30%;
     padding: 2rem;
+    flex-shrink: 0;
 }
 
 .hometext {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 5rem;
+    display: grid;
+    grid-column: repeat (3,1fr);
+    gap: 2rem;
 }
 
 .ContactForm {
