@@ -48,7 +48,7 @@ h1 {
 
 .active {
     color: #000000;
-    background-color: #fcae07;
+    background-image: linear-gradient(to top,rgb(158, 121, 0),rgb(255, 166, 0));
 }
 
 nav div ul li {
@@ -62,7 +62,7 @@ nav div ul li a {
 
 li a:hover {
     color: rgb(0, 0, 0);
-    background-color: rgb(15, 235, 15);
+    background-image: linear-gradient(to right,rgb(51, 255, 51),rgb(94, 128, 0));
 }
 
 header nav ul li div a {
@@ -83,7 +83,6 @@ li a {
 
 .dropcontent a:hover {
     background-color: rgb(1, 247, 13);
-    ;
 }
 
 .dropcontent {
@@ -126,14 +125,14 @@ h1{
 
 .homeimages {
     width: 30%;
-    padding: 2rem;
+    padding: rem;
     flex-shrink: 0;
 }
 
 .hometext {
     display: grid;
     grid-column: repeat (3,1fr);
-    gap: 2rem;
+    padding-bottom: 4rem;
 }
 
 .ContactForm {
@@ -209,6 +208,11 @@ h1{
 .helpimage {
     padding-left: 4rem;
     padding-top: 5rem;
+}
+
+.helpimage:hover{
+    transition: 0ms;
+    transform: scale(1.2, 1.2);
 }
 
 .helptext {

@@ -12,6 +12,7 @@
         rel="stylesheet">
     <link rel="shortcut icon" href="../assets/icons/cheese.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
 </head>
 
 <body>
@@ -37,15 +38,15 @@
 
     </header>
     <main>
-        <h1>Help</h1>
+        <h1 class="wow pulse">Help</h1>
         <section>
             <article class="container">
                 <div class="helpimage">
-                    <img class="social" src="../assets/icons/Like_icon.png" alt="like_icon">
+                    <a href="./art.html"><img class="social" src="../assets/icons/Like_icon.png" alt="like_icon"></a>
                 </div>
                 <div class="helptext">
-                    <h2>Find Art</h2>
-                    <p>
+                    <h2 class="wow pulse">Find Art</h2>
+                    <p class="wow slideInRight">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi aliquam accusantium ratione qui
                         nostrum laudantium, quaerat reprehenderit ad temporibus omnis, quia necessitatibus illum, optio
                         atque libero nisi corporis tempora quasi minus totam adipisci id excepturi nobis blanditiis.
@@ -56,11 +57,11 @@
             </article>
             <article class="container">
                 <div class="helpimage">
-                    <img class="social" src="../assets/icons/heart_icon.png" alt="heart-icon">
+                    <a href=""><img class="social" src="../assets/icons/heart_icon.png" alt="heart-icon"></a>
                 </div>
                 <div class="helptext">
-                    <h2>Follow Your Favorites</h2>
-                    <p>
+                    <h2 class="wow pulse">Follow Your Favorites</h2>
+                    <p class="wow slideInRight">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi aliquam accusantium ratione qui
                         nostrum laudantium, quaerat reprehenderit ad temporibus omnis, quia necessitatibus illum, optio
                         atque libero nisi corporis tempora quasi minus totam adipisci id excepturi nobis blanditiis.
@@ -71,11 +72,12 @@
             </article>
             <article class="container">
                 <div class="helpimage">
-                    <img class="social" src="../assets/icons/Return_icon.png" alt="return-icon">
+                    <a href="./shop.html"><img class="social" src="../assets/icons/Return_icon.png"
+                            alt="return-icon"></a>
                 </div>
                 <div class="helptext">
-                    <h2>Commissions</h2>
-                    <p>
+                    <h2 class="wow pulse">Commissions</h2>
+                    <p class="wow slideInRight">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi aliquam accusantium ratione qui
                         nostrum laudantium, quaerat reprehenderit ad temporibus omnis, quia necessitatibus illum, optio
                         atque libero nisi corporis tempora quasi minus totam adipisci id excepturi nobis blanditiis.
@@ -95,6 +97,8 @@
                 src="../assets/icons/instagram_icon.png" alt="instagram_icon"></a>
         <p class="copyright">&#169; CheddArt.com</p>
     </footer>
+    <script src="../js/wow.min.js"></script>
+    <script>new WOW().init();</script>
 </body>
 
 </html>
