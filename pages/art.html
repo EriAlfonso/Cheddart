@@ -12,28 +12,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,500&display=swap"
         rel="stylesheet">
     <link rel="shortcut icon" href="../assets/icons/cheese.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
     <header>
         <nav>
-            <div class="pageicon">
-                <img src="../assets/icons/cheeseinv.png" alt="Page_icon">
+            <div>
+                <ul class="navbar" id="nav1">
+                    <li><img class="pageicon" src="../assets/icons/cheeseinv.png" alt=""></li>
+                    <li><a href="../index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a class="drpbtn">Gallery &#9660; </a>
+                        <div class="dropcontent">
+                            <a class="active" href="./art.html">Art</a>
+                            <a href="./videos.html">Videos</a>
+                        </div>
+                    </li>
+                    <li><a href="./shop.html">Shop</a></li>
+                    <li><a href="./contactos.html">Contact us</a></li>
+                    <li><a href="./help.html">Help</a></li>
+                </ul>
+                <a href="javascript:void(0);" class="navicon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
             </div>
-            <ul class="navbar">
-                <li><a href="../index.html">Home</a></li>
-                <li class="dropdown">
-                    <a href="" class="drpbtn">Gallery &#9660; </a>
-                    <div class="dropcontent">
-                        <a class="active" href="./art.html">Art</a>
-                        <a href="./videos.html">Videos</a>
-                    </div>
-                </li>
-                <li><a href="./shop.html">Shop</a></li>
-                <li><a href="./contactos.html">Contact us</a></li>
-                <li><a href="./help.html">Help</a></li>
-            </ul>
         </nav>
     </header>
     <main>
@@ -60,8 +64,16 @@
                 src="../assets/icons/twitter_icon.png" alt="twitter_icon"></a>
         <a href="https://www.instagram.com/?hl=en" target="_blank"><img class="social"
                 src="../assets/icons/instagram_icon.png" alt="instagram_icon"></a>
-                <p class="copyright">&#169; CheddArt.com</p>
+        <p class="copyright">&#169; CheddArt.com</p>
     </footer>
+    <script>function myFunction() {
+            var x = document.getElementById("nav1");
+            if (x.className === "navbar") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar";
+            }
+        } </script>
 
 </body>
 
