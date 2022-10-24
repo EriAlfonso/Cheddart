@@ -12,7 +12,6 @@
         rel="stylesheet" />
     <link rel="shortcut icon" href="./assets/icons/cheese.png" type="image/x-icon" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -20,6 +19,9 @@
     <header>
         <nav>
             <div>
+                <a href="javascript:void(0);" class="navicon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
                 <ul class="navbar" id="nav1">
                     <li><img class="pageicon" src="../assets/icons/cheeseinv.png" alt=""></li>
                     <li><a class="active" href="./index.html">Home</a></li>
@@ -34,9 +36,6 @@
                     <li><a href="./pages/contactos.html">Contact us</a></li>
                     <li><a href="./pages/help.html">Help</a></li>
                 </ul>
-                <a href="javascript:void(0);" class="navicon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                </a>
             </div>
         </nav>
     </header>
@@ -53,11 +52,11 @@
         </section>
         <section class="homecontain">
             <div class="homeimages">
-                <img class="wow pulse" src="./assets/images/HomeArt.jpg" alt="Art_Photo" />
+                <img class="wow fadeIn" src="./assets/images/HomeArt.jpg" alt="Art_Photo" />
             </div>
             <div class="hometext">
-                <h3 class="wow slideInRight">Your Art</h3>
-                <p class="wow slideInRight">
+                <h3 class="wow fadeInRight">Your Art</h3>
+                <p class="wow fadeInRight">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
                     tempore tenetur aperiam doloribus aut similique adipisci atque eius
                     vitae enim. Eaque exercitationem autem, odio laudantium vel amet
@@ -67,8 +66,8 @@
         </section>
         <section class="homecontain">
             <div class="hometext">
-                <h3 class="wow slideInLeft">Connect With Others</h3>
-                <p class="wow slideInLeft">
+                <h3 class="wow fadeInLeft">Connect With Others</h3>
+                <p class="wow fadeInLeft">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
                     sit ratione accusamus ut dicta, odio voluptate, dolores, alias
                     magnam laudantium dolor vitae nemo quam possimus. Ratione, facilis
@@ -78,16 +77,16 @@
                 </p>
             </div>
             <div class="homeimages">
-                <img class="wow pulse" src="./assets/images/HomeConnect.jpg" alt="phone_image" />
+                <img class="wow fadeIn" src="./assets/images/HomeConnect.jpg" alt="phone_image" />
             </div>
         </section>
         <section class="homecontain">
             <div class="homeimages">
-                <img class="wow pulse" src="./assets/images/HomePoster.jpg" alt="posters_image" />
+                <img class="wow fadeIn" src="./assets/images/HomePoster.jpg" alt="posters_image" />
             </div>
             <div class="hometext">
-                <h3 class="wow slideInRight">Shop</h3>
-                <p class="wow slideInRight">
+                <h3 class="wow fadeInRight">Shop</h3>
+                <p class="wow fadeInRight">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Consectetur impedit assumenda, dolorum a nesciunt itaque, sed ipsum
                     quod laudantium ratione obcaecati praesentium veritatis sint, dicta
@@ -107,14 +106,6 @@
     </footer>
     <script src="./js/wow.min.js"></script>
     <script>new WOW().init();</script>
-    <script>function myFunction() {
-            var x = document.getElementById("nav1");
-            if (x.className === "navbar") {
-                x.className += " responsive";
-            } else {
-                x.className = "navbar";
-            }
-        } </script>
 </body>
 
 </html>
