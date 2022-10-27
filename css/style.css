@@ -92,6 +92,7 @@ h1 {
 .homeimages {
     display: flex;
     flex-shrink: 0;
+    padding: 1rem;
 }
 
 .hometext {
@@ -109,6 +110,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
+    padding-left: 1.5rem;
 }
 
 .art img {
@@ -187,7 +189,7 @@ img {
 }
 
 footer {
-    margin-top: 250px;
+    margin-top: 10rem;
     text-decoration: none;
     display: flex;
     justify-content: space-around;
@@ -213,5 +215,9 @@ footer {
 
     .B {
         order: 1;
+    }
+
+    .hometext{
+        padding-bottom: 1rem;
     }
 }
