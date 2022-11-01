@@ -29,12 +29,23 @@
 
 .dropdown:hover .dropdown-menu {
     background-color: #000000;
-    display: block;
+
+}
+
+.dropdown-menu {
+    padding: 0;
+    background-color: #000000;
+    background: #000000;
+}
+
+.dropdown-menu :hover {
+    background-color: rgb(1, 247, 13);
 }
 
 .dropdown-item {
+    padding: 0;
     background-color: #000000;
-    color: white
+    color: rgb(252, 243, 243)
 }
 
 .dropdown-item:hover {
@@ -47,6 +58,4 @@
     color: rgb(0, 255, 55);
 }
 
-.navbar-toggler-icon:hover .navbarNavDropdown {
-    display: block;
-}
+
