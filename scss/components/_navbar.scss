@@ -1,0 +1,52 @@
+.navbar {
+    background-color: rgb(0, 0, 0);
+    --bs-navbar-brand-color: rgb(153, 153, 96);
+    --bs-navbar-brand-hover-color: yellow
+}
+
+.navbar-brand img {
+    padding-left: 1rem;
+    width: 4rem;
+}
+
+.navbar-brand img:hover {
+    transition: 0ms;
+    transform: scale(1.2, 1.2);
+}
+
+.active {
+    color: #000000;
+    background-image: linear-gradient(to top, rgb(158, 121, 0), rgb(255, 166, 0));
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    background-color: rgb(1, 247, 13);
+}
+
+.dropdown:hover .dropdown-menu {
+    background-color: #000000;
+    display: block;
+}
+
+.dropdown-item {
+    background-color: #000000;
+    color: white
+}
+
+.dropdown-item:hover {
+    background-color: rgb(1, 247, 13);
+}
+
+.navbar-toggler {
+    background-color: rgb(48, 48, 48);
+    margin-right: 1rem;
+    color: rgb(0, 255, 55);
+}
+
+.navbar-toggler-icon:hover .navbarNavDropdown {
+    display: block;
+}

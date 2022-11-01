@@ -1,0 +1,29 @@
+.homecontain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.art {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-left: 1.5rem;
+}
+
+.shop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.videos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.commissions {
+    justify-content: left;
+}

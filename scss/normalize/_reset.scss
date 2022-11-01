@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: rgb(222, 224, 201);
+    text-shadow: 0 0 6px #000000;
+    background-image: url("../assets/images/cheesebg.jpg");
+    background-size: 100%;
+    background-color: black;
+    background-repeat: no-repeat;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+h1 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}

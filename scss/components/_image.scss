@@ -1,0 +1,48 @@
+.homeimages {
+    display: flex;
+    flex-shrink: 0;
+    padding: 1rem;
+}
+
+.art img {
+    width: 20rem;
+    border-radius: 5%;
+    opacity: 0.8;
+}
+
+.art img:hover {
+    opacity: 1;
+    transition: 0ms;
+    transform: scale(1.1, 1.1);
+}
+
+.ShopImages {
+    display: flex;
+    justify-content: flex-start;
+    width: 9rem;
+}
+.ShopShirt {
+    display: flex;
+    justify-content: flex-end;
+    width: 20rem;
+}
+
+.commisionimage {
+    display: flex;
+    justify-content: left;
+    width: 10rem;
+}
+
+.helpimage {
+    padding: 5rem 5rem 0 4rem;
+}
+
+.helpimage:hover {
+    transition: 0ms;
+    transform: scale(1.2, 1.2);
+}
+
+img {
+    width: 100%;
+    height: auto;
+}

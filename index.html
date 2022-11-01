@@ -14,42 +14,47 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./scss/style.css">
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-lg ">
-            <a class="navbar-brand" href="./index.html"> <img src="./assets/icons/cheeseinv.png" alt=""> CheddArt</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item ">
-                        <a class="nav-link active" href="./index.html">Home</span></a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                            Gallery
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="./pages/art.html">Art</a>
-                            <a class="dropdown-item" href="./pages/videos.html">videos</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/shop.html">Shop</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/contactos.html">Contacts</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="./pages/help.html">Help</a>
-                    </li>
-                </ul>
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html"> <img src="./assets/icons/cheeseinv.png" alt="">
+                    CheddArt
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item ">
+                            <a class="nav-link active" href="./index.html">Home</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Gallery
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="./pages/art.html">Art</a>
+                                <a class="dropdown-item" href="./pages/videos.html">videos</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contactos.html">Contacts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="./pages/help.html">Help</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
@@ -66,53 +71,53 @@
         </section>
         <section class="container">
             <div class="row">
-            <div class="homeimages col-md-4 col-sm-12">
-                <img class="wow fadeIn" src="./assets/images/HomeArt.jpg" alt="Art_Photo" />
+                <div class="homeimages col-md-4 col-sm-12">
+                    <img class="wow fadeIn" src="./assets/images/HomeArt.jpg" alt="Art_Photo" />
+                </div>
+                <div class="hometext col-md-8 col-sm-12">
+                    <h3 class="wow fadeInRight">Your Art</h3>
+                    <p class="wow fadeInRight">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                        tempore tenetur aperiam doloribus aut similique adipisci atque eius
+                        vitae enim. Eaque exercitationem autem, odio laudantium vel amet
+                        doloremque accusantium ratione!
+                    </p>
+                </div>
             </div>
-            <div class="hometext col-md-8 col-sm-12">
-                <h3 class="wow fadeInRight">Your Art</h3>
-                <p class="wow fadeInRight">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-                    tempore tenetur aperiam doloribus aut similique adipisci atque eius
-                    vitae enim. Eaque exercitationem autem, odio laudantium vel amet
-                    doloremque accusantium ratione!
-                </p>
-            </div>
-        </div>
         </section>
         <section class="container">
             <div class="row">
-            <div class="hometext A col-md-8 col-sm-12">
-                <h3 class="wow fadeInLeft">Connect With Others</h3>
-                <p class="wow fadeInLeft">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
-                    sit ratione accusamus ut dicta, odio voluptate, dolores, alias
-                    magnam laudantium dolor vitae nemo quam possimus. Ratione, facilis
-                    voluptate. Dolorem quam sequi dicta, tempore voluptate quaerat
-                    recusandae? Autem ipsum sed ut rerum, qui eveniet nisi voluptates,
-                    iusto, quod exercitationem harum quo.
-                </p>
+                <div class="hometext A col-md-8 col-sm-12">
+                    <h3 class="wow fadeInLeft">Connect With Others</h3>
+                    <p class="wow fadeInLeft">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+                        sit ratione accusamus ut dicta, odio voluptate, dolores, alias
+                        magnam laudantium dolor vitae nemo quam possimus. Ratione, facilis
+                        voluptate. Dolorem quam sequi dicta, tempore voluptate quaerat
+                        recusandae? Autem ipsum sed ut rerum, qui eveniet nisi voluptates,
+                        iusto, quod exercitationem harum quo.
+                    </p>
+                </div>
+                <div class="homeimages B col-md-4 col-sm-12">
+                    <img class="wow fadeIn" src="./assets/images/HomeConnect.jpg" alt="phone_image" />
+                </div>
             </div>
-            <div class="homeimages B col-md-4 col-sm-12">
-                <img class="wow fadeIn" src="./assets/images/HomeConnect.jpg" alt="phone_image" />
-            </div>
-        </div>
         </section>
         <section class="container">
             <div class="row">
-            <div class="homeimages col-md-4 col-sm-12">
-                <img class="wow fadeIn" src="./assets/images/HomePoster.jpg" alt="posters_image" />
+                <div class="homeimages col-md-4 col-sm-12">
+                    <img class="wow fadeIn" src="./assets/images/HomePoster.jpg" alt="posters_image" />
+                </div>
+                <div class="hometext col-md-8 col-sm-12">
+                    <h3 class="wow fadeInRight">Shop</h3>
+                    <p class="wow fadeInRight">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Consectetur impedit assumenda, dolorum a nesciunt itaque, sed ipsum
+                        quod laudantium ratione obcaecati praesentium veritatis sint, dicta
+                        rem perferendis nam sequi. Doloremque!
+                    </p>
+                </div>
             </div>
-            <div class="hometext col-md-8 col-sm-12">
-                <h3 class="wow fadeInRight">Shop</h3>
-                <p class="wow fadeInRight">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Consectetur impedit assumenda, dolorum a nesciunt itaque, sed ipsum
-                    quod laudantium ratione obcaecati praesentium veritatis sint, dicta
-                    rem perferendis nam sequi. Doloremque!
-                </p>
-            </div>
-        </div>
         </section>
     </main>
     <footer>
@@ -127,8 +132,8 @@
     <script src="./js/wow.min.js"></script>
     <script>new WOW().init();</script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-    crossorigin="anonymous"></script>
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
