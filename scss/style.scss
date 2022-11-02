@@ -1,7 +1,8 @@
 @import "./normalize/reset";
-@import "./views/queries";
+@import "./utility/color";
 @import "./components/navbar";
-@import "./components/footer";
+@import "./layout/flex";
 @import "./components/image";
 @import "./components/text";
-@import "./layout/flex";
+@import "./components/footer";
+@import "./views/queries";
