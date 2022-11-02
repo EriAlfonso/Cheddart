@@ -3,7 +3,7 @@
 .navbar {
     background-color: $backgroundcolor;
     --bs-navbar-brand-color: rgb(153, 153, 96);
-    --bs-navbar-brand-hover-color: yellow
+    --bs-navbar-brand-hover-color: yellow;
 }
 
 .navbar-brand img {
@@ -16,50 +16,47 @@
     
 }
 
-
 .active {
-    color: #000000;
-    background-image: linear-gradient(to top, rgb(158, 121, 0), rgb(255, 166, 0));
+    background-image: $activecolor;
 }
 
 .nav-link {
     color: white;
+    padding-left: 1rem;
     &:hover {
-        background-color: rgb(1, 247, 13);
+        background-color: $hovercolor;
     }
 }
 
-
-
-.dropdown:hover .dropdown-menu {
-    background-color: #000000;
-
-}
-
 .dropdown-menu {
-    padding: 0;
-    background-color: #000000;
-    background: #000000;
-}
-
-.dropdown-menu :hover {
-    background-color: rgb(1, 247, 13);
+    padding-left: 2rem;
+    background-color: $backgroundcolor;
+    & :hover {
+        background-color: $hovercolor;
+    }
 }
 
 .dropdown-item {
-    padding: 0;
-    background-color: #000000;
-    color: rgb(252, 243, 243)
-}
-
-.dropdown-item:hover {
-    background-color: rgb(1, 247, 13);
+    background-color: $backgroundcolor;
+    color: rgb(252, 243, 243);
+    &:hover {
+        background-color: $hovercolor;
+    }
 }
 
 .navbar-toggler {
-    background-color: rgb(48, 48, 48);
+    background-color:$backgroundcolor;
+    border-color: orange;
     margin-right: 1rem;
-    color: rgb(0, 255, 55);
+    &:hover {
+        border-color: $hovercolor;
+        color: $hovercolor;
+    }
+    &:hover>.navbar-toggler-icon{
+        background-image: url(../../assets/icons/burger.jpg);
+    }
 }
 
-
+.navbar-toggler-icon{
+    background-image: url(../../assets/icons/preburger.png);
+}
