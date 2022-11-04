@@ -11,12 +11,13 @@
 }
 
 .shoptitles {
-    color: yellow;
+    color: $glow;
     display: flex;
     justify-content: center;
     padding: 6rem 0 6rem;
 }
 
 .helptext {
+    text-align: center;
     padding: 5rem 0 0 2rem;
 }

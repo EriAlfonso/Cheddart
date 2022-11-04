@@ -20,6 +20,10 @@
     background-image: $activecolor;
 }
 
+.nav-item {
+margin-left: 1rem;
+}
+
 .nav-link {
     color: white;
     padding-left: 1rem;
@@ -29,7 +33,7 @@
 }
 
 .dropdown-menu {
-    padding-left: 2rem;
+    margin-left: 1rem;
     background-color: $backgroundcolor;
     & :hover {
         background-color: $hovercolor;
@@ -38,7 +42,7 @@
 
 .dropdown-item {
     background-color: $backgroundcolor;
-    color: rgb(252, 243, 243);
+    color: white;
     &:hover {
         background-color: $hovercolor;
     }

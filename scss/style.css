@@ -5,13 +5,14 @@
 }
 
 body {
-  color: rgb(222, 224, 201);
-  text-shadow: 0 0 6px #000000;
+  color: white;
   background-image: url("../assets/images/cheesebg.jpg");
   background-size: 100%;
-  background-color: black;
+  background-color: rgb(37, 35, 35);
   background-repeat: no-repeat;
+  background-attachment: fixed;
   font-family: "Merriweather Sans", sans-serif;
+  font-size: 1.2rem;
 }
 
 h1 {
@@ -20,8 +21,13 @@ h1 {
   text-align: center;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 .navbar {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   --bs-navbar-brand-color: rgb(153, 153, 96);
   --bs-navbar-brand-hover-color: yellow;
 }
@@ -39,6 +45,10 @@ h1 {
   background-image: linear-gradient(to top, rgb(105, 83, 10), rgb(255, 166, 0));
 }
 
+.nav-item {
+  margin-left: 1rem;
+}
+
 .nav-link {
   color: white;
   padding-left: 1rem;
@@ -48,23 +58,23 @@ h1 {
 }
 
 .dropdown-menu {
-  padding-left: 2rem;
-  background-color: black;
+  margin-left: 1rem;
+  background-color: rgb(0, 0, 0);
 }
 .dropdown-menu :hover {
   background-color: rgb(1, 253, 1);
 }
 
 .dropdown-item {
-  background-color: black;
-  color: rgb(252, 243, 243);
+  background-color: rgb(0, 0, 0);
+  color: white;
 }
 .dropdown-item:hover {
   background-color: rgb(1, 253, 1);
 }
 
 .navbar-toggler {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   border-color: orange;
   margin-right: 1rem;
 }
@@ -114,6 +124,7 @@ h1 {
   display: flex;
   flex-shrink: 0;
   padding: 1rem;
+  justify-content: center;
 }
 
 .art img {
@@ -121,7 +132,6 @@ h1 {
   border-radius: 5%;
   opacity: 0.8;
 }
-
 .art img:hover {
   opacity: 1;
   transition: 0ms;
@@ -147,17 +157,12 @@ h1 {
 }
 
 .helpimage {
-  padding: 5rem 5rem 0 4rem;
+  align-self: center;
+  justify-content: center;
 }
-
 .helpimage:hover {
   transition: 0ms;
   transform: scale(1.2, 1.2);
-}
-
-img {
-  width: 100%;
-  height: auto;
 }
 
 .about {
@@ -180,6 +185,7 @@ img {
 }
 
 .helptext {
+  text-align: center;
   padding: 5rem 0 0 2rem;
 }
 
@@ -203,12 +209,6 @@ footer {
 @media only screen and (max-width: 700px) {
   .container {
     flex-direction: column;
-  }
-  .A {
-    order: 2;
-  }
-  .B {
-    order: 1;
   }
   .dropdown-menu {
     background-color: #000000;

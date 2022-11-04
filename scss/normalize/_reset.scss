@@ -5,17 +5,23 @@
 }
 
 body {
-    color: rgb(222, 224, 201);
-    text-shadow: 0 0 6px #000000;
+    color:white;
     background-image: url("../assets/images/cheesebg.jpg");
     background-size: 100%;
-    background-color: black;
+    background-color:rgb(37, 35, 35);
     background-repeat: no-repeat;
+    background-attachment: fixed;
     font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.2rem;
 }
 
 h1 {
     padding-top: 3rem;
     padding-bottom: 3rem;
     text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
 }
