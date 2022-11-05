@@ -3,10 +3,14 @@
     flex-shrink: 0;
     padding: 1rem;
     justify-content: center;
+    align-self: center;
+    overflow: hidden;
+    border-radius:20%;
 }
 
 .art img {
     width: 20rem;
+    margin-left: 2rem;
     border-radius: 5%;
     opacity: 0.8;
     &:hover {

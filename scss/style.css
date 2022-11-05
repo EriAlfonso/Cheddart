@@ -6,10 +6,10 @@
 
 body {
   color: white;
-  background-image: url("../assets/images/cheesebg.jpg");
+  background-image: url("../assets/images/PageImages/cheesebg.jpg");
   background-size: 100%;
-  background-color: rgb(37, 35, 35);
-  background-repeat: no-repeat;
+  background-color: rgb(31, 29, 29);
+  background-repeat: repeat;
   background-attachment: fixed;
   font-family: "Merriweather Sans", sans-serif;
   font-size: 1.2rem;
@@ -125,10 +125,14 @@ img {
   flex-shrink: 0;
   padding: 1rem;
   justify-content: center;
+  align-self: center;
+  overflow: hidden;
+  border-radius: 20%;
 }
 
 .art img {
   width: 20rem;
+  margin-left: 2rem;
   border-radius: 5%;
   opacity: 0.8;
 }
@@ -185,7 +189,7 @@ img {
 }
 
 .helptext {
-  text-align: center;
+  justify-content: center;
   padding: 5rem 0 0 2rem;
 }
 
