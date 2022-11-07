@@ -1,3 +1,9 @@
+$stylemap: (
+    scale1:scale(1.1, 1.1),
+    remwidth:20rem,
+    scale2:scale(1.2, 1.2)
+);
+
 .homeimages {
     display: flex;
     flex-shrink: 0;
@@ -10,14 +16,14 @@
 
 .art {
     img {
-    width: 20rem;
+        width: map-get($stylemap, remwidth);
     margin-left: 2rem;
     border-radius: 5%;
     opacity: 0.8;
     &:hover {
         opacity: 1;
         transition: 0ms;
-        transform: scale(1.1, 1.1);
+        transform: map-get($stylemap, scale1);
         }
     }
 }
@@ -31,7 +37,7 @@
 .ShopShirt {
     display: flex;
     justify-content: flex-end;
-    width: 20rem;
+    width: map-get($stylemap, remwidth );
 }
 
 .commisionimage {
@@ -45,7 +51,7 @@
     justify-content: center;
     &:hover {
         transition: 0ms;
-        transform: scale(1.2, 1.2);
+        transform: map-get($stylemap, scale2 ) ;
     }
 }
 

@@ -3,7 +3,7 @@
 .navbar {
     background-color: $backgroundcolor;
     --bs-navbar-brand-color: rgb(153, 153, 96);
-    --bs-navbar-brand-hover-color: yellow;
+    --bs-navbar-brand-hover-color: $glow;
 }
 
 .navbar-brand img {
@@ -49,18 +49,11 @@ margin-left: 1rem;
 }
 
 .navbar-toggler {
-    background-color:$backgroundcolor;
+    background-color:rgb(234, 238, 16);
     border-color: orange;
     margin-right: 1rem;
     &:hover {
         border-color: $hovercolor;
         color: $hovercolor;
     }
-    &:hover>.navbar-toggler-icon{
-        background-image: url("../../assets/icons/burger.jpg");
-    }
-}
-
-.navbar-toggler-icon{
-    background-image: url("../../assets/icons/preburger.png");
 }
