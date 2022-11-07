@@ -1,3 +1,5 @@
+@import "../utility/color";
+
 .about {
     display: block;
     text-align: center;
@@ -18,7 +20,7 @@
 }
 
 .helptext {
+    display: flex;
     justify-content: center;
-
     padding: 5rem 0 0 2rem;
 }

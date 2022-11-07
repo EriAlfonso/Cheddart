@@ -8,7 +8,8 @@
     border-radius:20%;
 }
 
-.art img {
+.art {
+    img {
     width: 20rem;
     margin-left: 2rem;
     border-radius: 5%;
@@ -17,6 +18,7 @@
         opacity: 1;
         transition: 0ms;
         transform: scale(1.1, 1.1);
+        }
     }
 }
 
@@ -41,9 +43,15 @@
 .helpimage {
     align-self: center;
     justify-content: center;
-
     &:hover {
         transition: 0ms;
         transform: scale(1.2, 1.2);
     }
+}
+
+.videos{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
 }

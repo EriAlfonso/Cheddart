@@ -57,10 +57,10 @@ margin-left: 1rem;
         color: $hovercolor;
     }
     &:hover>.navbar-toggler-icon{
-        background-image: url(../../assets/icons/burger.jpg);
+        background-image: url("../../assets/icons/burger.jpg");
     }
 }
 
 .navbar-toggler-icon{
-    background-image: url(../../assets/icons/preburger.png);
+    background-image: url("../../assets/icons/preburger.png");
 }

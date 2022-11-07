@@ -83,11 +83,11 @@ img {
   color: rgb(1, 253, 1);
 }
 .navbar-toggler:hover > .navbar-toggler-icon {
-  background-image: url(../../assets/icons/burger.jpg);
+  background-image: url("../../assets/icons/burger.jpg");
 }
 
 .navbar-toggler-icon {
-  background-image: url(../../assets/icons/preburger.png);
+  background-image: url("../../assets/icons/preburger.png");
 }
 
 .homecontain {
@@ -169,6 +169,13 @@ img {
   transform: scale(1.2, 1.2);
 }
 
+.videos {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
 .about {
   display: block;
   text-align: center;
@@ -189,6 +196,7 @@ img {
 }
 
 .helptext {
+  display: flex;
   justify-content: center;
   padding: 5rem 0 0 2rem;
 }
