@@ -1,15 +1,14 @@
 @import "../utility/color";
 
 .about {
-    display: block;
     text-align: center;
-    padding: 3rem;
+    padding: 2rem;
     font-size: larger;
 }
 
 .hometext {
-    text-align: center;
-    padding: 5rem 5rem 0 4rem;
+    justify-content: center;
+    padding: 5rem 2rem 1rem 2rem;
 }
 
 .shoptitles {
@@ -20,9 +19,8 @@
 }
 
 .helptext {
-    display: flex;
     justify-content: center;
-    padding: 5rem 0 0 2rem;
+    padding: 5rem 2rem 0 2rem;
 }
 
 .ContactForm{
