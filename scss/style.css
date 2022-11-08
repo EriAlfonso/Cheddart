@@ -6,7 +6,7 @@
 
 body {
   color: white;
-  background-image: url("../assets/images/PageImages/cheesebg.jpg");
+  background-image: url("../../assets/images/background.jpg");
   background-size: 100%;
   background-color: rgb(31, 29, 29);
   background-repeat: repeat;
@@ -187,7 +187,6 @@ img {
   position: relative;
   overflow: hidden;
   width: 100%;
-  padding-top: 56.25%;
 }
 
 .about {
@@ -253,5 +252,17 @@ footer {
   }
   .hometext {
     text-align: center;
+  }
+  .Carouselbw {
+    width: 20rem;
+    height: 20rem;
+  }
+  .Carouselcolor {
+    width: 20rem;
+    height: 20rem;
+  }
+  .Carouseldigital {
+    width: 20rem;
+    height: 20rem;
   }
 }/*# sourceMappingURL=style.css.map */

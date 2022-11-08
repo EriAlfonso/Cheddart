@@ -52,14 +52,13 @@ $stylemap: (
 .Carouselcolor{
     width: map-get($stylemap, remcar);
     height:map-get($stylemap, remcar);
-    margin: 3rem;
+    margin:3rem;
 }
 
 .Carouseldigital{
     width: map-get($stylemap, remcar);
     height:map-get($stylemap, remcar);
     margin: 3rem;
-    
 }
 
 .carousel-item{
@@ -80,6 +79,5 @@ $stylemap: (
     position: relative;
     overflow: hidden;
     width: 100%;
-    padding-top: 56.25%;
 }
 
