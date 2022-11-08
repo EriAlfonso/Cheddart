@@ -1,7 +1,8 @@
 $stylemap: (
     scale1:scale(1.1, 1.1),
     remwidth:20rem,
-    scale2:scale(1.2, 1.2)
+    scale2:scale(1.2, 1.2),
+    remcar:30rem,
 );
 
 .homeimages {
@@ -17,7 +18,7 @@ $stylemap: (
 
 .art {
     img {
-        width: map-get($stylemap, remwidth);
+    width: map-get($stylemap, remwidth);
     margin-left: 2rem;
     border-radius: 5%;
     opacity: 0.8;
@@ -41,10 +42,29 @@ $stylemap: (
     width: map-get($stylemap, remwidth );
 }
 
-.commisionimage {
-    display: flex;
-    justify-content: left;
-    width: 10rem;
+.Carouselbw{
+    width: map-get($stylemap, remcar);
+    height:map-get($stylemap, remcar);
+    margin: 3rem;
+    margin-bottom: 20rem;
+}
+
+.Carouselcolor{
+    width: map-get($stylemap, remcar);
+    height:map-get($stylemap, remcar);
+    margin: 3rem;
+}
+
+.Carouseldigital{
+    width: map-get($stylemap, remcar);
+    height:map-get($stylemap, remcar);
+    margin: 3rem;
+    
+}
+
+.carousel-item{
+    object-fit: cover;
+    height: 100%;
 }
 
 .helpimage {
@@ -62,3 +82,4 @@ $stylemap: (
     width: 100%;
     padding-top: 56.25%;
 }
+
