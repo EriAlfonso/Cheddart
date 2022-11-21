@@ -1,0 +1,11 @@
+@import "../utility/color";
+
+.card{
+    background-color: rgb(0, 0, 0);
+    border-color: $glow;
+}
+.btn{
+    color:white ;
+    background-color: $backgroundcolor;
+    border-color: $hovercolor;
+}

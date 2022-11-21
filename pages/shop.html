@@ -61,163 +61,238 @@
             </div>
         </nav>
     </header>
-    <main>
+    <main class="gridshop">
         <h1>Shop</h1>
-        <h2 class="shoptitles">Shirts</h2>
-        <section class="shop">
-            <div class="ShopImages">
-                <img src="../assets/art/marz/BW_marz.jpg" alt="shirtDesignBlacknWhite">
-            </div>
-            <div class="ShopShirt">
-                <img src="../assets/images/shop/whiteshirtwithchar.png" alt="ShirtWithDesign">
-            </div>
-        </section>
+        <div class="grid1">
+            <h2 class="shoptitles">Shirts</h2>
+            <section class="shop">
+                <div class="ShopImages">
+                    <img src="../assets/art/marz/BW_marz.jpg" alt="shirtDesignBlacknWhite">
+                </div>
+                <div class="ShopShirt">
+                    <img src="../assets/images/shop/whiteshirtwithchar.png" alt="ShirtWithDesign">
+                </div>
+            </section>
+        </div>
         <section>
             <h2 class="shoptitles">Commissions</h2>
-            <div>
+            <div class="grid2">
                 <!--bootstrap carousel black white-->
                 <h3>Black and White on Paper</h3>
-                    <div class="Carouselbw">
-                        <div id="BlackWhitecarousel" class="carousel slide" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                                <li data-bs-target="#BlackWhitecarousel" data-bs-slide-to="0" class="active"></li>
-                                <li data-bs-target="#BlackWhitecarousel" data-bs-slide-to="1"></li>
-                                <li data-bs-target="#BlackWhitecarousel" data-bs-slide-to="2"></li>
-                            </ol>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="../assets/art/cheese/Robot_cheese.jpg" class="d-block w-100"
-                                        alt="dismembered robot tied in cables">
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5>Tied In Progress</h5>
-                                        <p>Black and white by Cheese</p>
-                                    </div>
+                <div class="Carouselbw">
+                    <div id="BlackWhitecarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-bs-target="#BlackWhitecarousel" data-bs-slide-to="0" class="active"></li>
+                            <li data-bs-target="#BlackWhitecarousel" data-bs-slide-to="1"></li>
+                            <li data-bs-target="#BlackWhitecarousel" data-bs-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../assets/art/cheese/Robot_cheese.jpg" class="d-block w-100"
+                                    alt="dismembered robot tied in cables">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Tied In Progress</h5>
+                                    <p>Black and white by Cheese</p>
                                 </div>
-                                <div class="carousel-item ">
-                                    <img src="../assets/art/plas/Bwfm_plas.jpg" class="d-block w-100"
-                                        alt="evil girl with mace">
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5>Evil in steps</h5>
-                                        <p>Black and white by Plas</p>
-                                    </div>
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="../assets/art/plas/Bwfm_plas.jpg" class="d-block w-100"
+                                    alt="evil girl with mace">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Evil in steps</h5>
+                                    <p>Black and white by Plas</p>
                                 </div>
-                                <div class="carousel-item">
-                                    <img src="../assets/art/cheese/skull.jpg" class="d-block w-100"
-                                        alt="skull in black and white">
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5>Skull</h5>
-                                        <p>black and white by Cheese</p>
-                                    </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../assets/art/cheese/skull.jpg" class="d-block w-100"
+                                    alt="skull in black and white">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Skull</h5>
+                                    <p>black and white by Cheese</p>
                                 </div>
-                                <a class="carousel-control-prev" href="#BlackWhitecarousel" role="button"
-                                    data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Prev</span>
-                                </a>
-                                <a class="carousel-control-next" href="#BlackWhitecarousel" role="button"
-                                    data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
+                            </div>
+                            <a class="carousel-control-prev" href="#BlackWhitecarousel" role="button"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Prev</span>
+                            </a>
+                            <a class="carousel-control-next" href="#BlackWhitecarousel" role="button"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--cards for black and white-->
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/art/cheese/Robot_cheese.jpg" class="card-img-top" alt="dismembered robot tied in cables">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Tied In Progress</h5>
+                            <p class="card-text">Black and white by Cheese</p>
+                            <a href="#" class="btn btn-primary">Buy</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/art/cheese/Robot_cheese.jpg" class="card-img-top" alt="dismembered robot tied in cables">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Tied In Progress</h5>
+                            <p class="card-text">Black and white by Cheese</p>
+                            <a href="#" class="btn btn-primary">Buy</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/art/cheese/Robot_cheese.jpg" class="card-img-top" alt="dismembered robot tied in cables">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Tied In Progress</h5>
+                            <p class="card-text">Black and white by Cheese</p>
+                            <a href="#" class="btn btn-primary">Buy</a>
+                        </div>
+                    </div>
+                    
+
+        </div>
+            <div>
+                <!--bootstrap carousel color-->
+                <h3>Full Color on Paper/Canvas</h3>
+                <div class="Carouselcolor">
+                    <div id="colorcarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-bs-target="#colorcarousel" data-bs-slide-to="0" class="active"></li>
+                            <li data-bs-target="#colorcarousel" data-bs-slide-to="1"></li>
+                            <li data-bs-target="#colorcarousel" data-bs-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../assets/art/cheese/Kratos_cheese.jpg" class="d-block "
+                                    alt="Kratos from god of war">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Kratos</h5>
+                                    <p>Color on digital canvas by Cheese</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="../assets/art/cheese/Shubfull_cheese.jpg" class="d-block "
+                                    alt="rendition of shub niggurath lovecraftian horror">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>shub niggurath</h5>
+                                    <p>Color by Cheese</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../assets/art/cheese/EEvee_cheese.png" class="d-block "
+                                    alt="Various evolutions of eevee">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Eeveelutions</h5>
+                                    <p>Tattoo idea colored by Cheese</p>
+                                </div>
                             </div>
                         </div>
+                        <a class="carousel-control-prev" href="#colorcarousel" role="button" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Prev</span>
+                        </a>
+                        <a class="carousel-control-next" href="#colorcarousel" role="button" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
                 </div>
-                
             </div>
-                <div>
-                    <!--bootstrap carousel color-->
-                    <h3>Full Color on Paper/Canvas</h3>
-                    <div class="Carouselcolor">
-                        <div id="colorcarousel" class="carousel slide" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                                <li data-bs-target="#colorcarousel" data-bs-slide-to="0" class="active"></li>
-                                <li data-bs-target="#colorcarousel" data-bs-slide-to="1"></li>
-                                <li data-bs-target="#colorcarousel" data-bs-slide-to="2"></li>
-                            </ol>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="../assets/art/cheese/Kratos_cheese.jpg" class="d-block "
-                                        alt="Kratos from god of war">
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5>Kratos</h5>
-                                        <p>Color on digital canvas by Cheese</p>
-                                    </div>
-                                </div>
-                                <div class="carousel-item ">
-                                    <img src="../assets/art/cheese/Shubfull_cheese.jpg" class="d-block "
-                                        alt="rendition of shub niggurath lovecraftian horror">
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5>shub niggurath</h5>
-                                        <p>Color by Cheese</p>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="../assets/art/cheese/EEvee_cheese.png" class="d-block "
-                                        alt="Various evolutions of eevee">
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5>Eeveelutions</h5>
-                                        <p>Tattoo idea colored by Cheese</p>
-                                    </div>
+            <!--Cards for color-->
+            <div class="card" style="width: 18rem;">
+                <img src="../assets/art/cheese/Robot_cheese.jpg" class="card-img-top" alt="dismembered robot tied in cables">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Tied In Progress</h5>
+                    <p class="card-text">Black and white by Cheese</p>
+                    <a href="#" class="btn btn-primary">Buy</a>
+                </div>
+            </div>                    <div class="card" style="width: 18rem;">
+                <img src="../assets/art/cheese/Robot_cheese.jpg" class="card-img-top" alt="dismembered robot tied in cables">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Tied In Progress</h5>
+                    <p class="card-text">Black and white by Cheese</p>
+                    <a href="#" class="btn btn-primary">Buy</a>
+                </div>
+            </div>                    <div class="card" style="width: 18rem;">
+                <img src="../assets/art/cheese/Robot_cheese.jpg" class="card-img-top" alt="dismembered robot tied in cables">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Tied In Progress</h5>
+                    <p class="card-text">Black and white by Cheese</p>
+                    <a href="#" class="btn btn-primary">Buy</a>
+                </div>
+            </div>
+
+            <div>
+                <!--bootstrap carousel digital-->
+                <h3>Digital Art</h3>
+                <div class="Carouseldigital">
+                    <div id="digitalcarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-bs-target="#digitalcarousel" data-bs-slide-to="0" class="active"></li>
+                            <li data-bs-target="#digitalcarousel" data-bs-slide-to="1"></li>
+                            <li data-bs-target="#digitalcarousel" data-bs-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../assets/art/marz/Portraitcolor_marz.jpg" class="d-block w-100"
+                                    alt="portrait by Marz in full color">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Portrait</h5>
+                                    <p>digital color piece by Marz</p>
                                 </div>
                             </div>
-                            <a class="carousel-control-prev" href="#colorcarousel" role="button" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Prev</span>
-                            </a>
-                            <a class="carousel-control-next" href="#colorcarousel" role="button" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <!--bootstrap carousel digital-->
-                    <h3>Digital Art</h3>
-                    <div class="Carouseldigital">
-                        <div id="digitalcarousel" class="carousel slide" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                                <li data-bs-target="#digitalcarousel" data-bs-slide-to="0" class="active"></li>
-                                <li data-bs-target="#digitalcarousel" data-bs-slide-to="1"></li>
-                                <li data-bs-target="#digitalcarousel" data-bs-slide-to="2"></li>
-                            </ol>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="../assets/art/marz/Portraitcolor_marz.jpg" class="d-block w-100"
-                                        alt="portrait by Marz in full color">
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5>Portrait</h5>
-                                        <p>digital color piece by Marz</p>
-                                    </div>
-                                </div>
-                                <div class="carousel-item ">
-                                    <img src="../assets/art/cheese/Rick.jpg" class="d-block w-100"
-                                        alt="Rick from rick and morty holding dimension gun">
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5>Space time ultimatum</h5>
-                                        <p>Early concepts of rick by Cheese</p>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="../assets/art/marz/Ful_color.jpg" class="d-block w-100"
-                                        alt="full team of adventurers in color">
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5>The gang</h5>
-                                        <p>Full team concept by Marz</p>
-                                    </div>
+                            <div class="carousel-item ">
+                                <img src="../assets/art/cheese/Rick.jpg" class="d-block w-100"
+                                    alt="Rick from rick and morty holding dimension gun">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Space time ultimatum</h5>
+                                    <p>Early concepts of rick by Cheese</p>
                                 </div>
                             </div>
-                            <a class="carousel-control-prev" href="#digitalcarousel" type="button" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Prev</span>
-                            </a>
-                            <a class="carousel-control-next" href="#digitalcarousel" type="button" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
+                            <div class="carousel-item">
+                                <img src="../assets/art/marz/Ful_color.jpg" class="d-block w-100"
+                                    alt="full team of adventurers in color">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>The gang</h5>
+                                    <p>Full team concept by Marz</p>
+                                </div>
+                            </div>
                         </div>
+                        <a class="carousel-control-prev" href="#digitalcarousel" type="button" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Prev</span>
+                        </a>
+                        <a class="carousel-control-next" href="#digitalcarousel" type="button" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
                     </div>
                 </div>
+            </div>
+            <!--cards for Digital-->
+            <div class="card" style="width: 18rem;">
+                <img src="../assets/art/cheese/Robot_cheese.jpg" class="card-img-top" alt="dismembered robot tied in cables">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Tied In Progress</h5>
+                    <p class="card-text">Black and white by Cheese</p>
+                    <a href="#" class="btn btn-primary">Buy</a>
+                </div>
+            </div>                    <div class="card" style="width: 18rem;">
+                <img src="../assets/art/cheese/Robot_cheese.jpg" class="card-img-top" alt="dismembered robot tied in cables">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Tied In Progress</h5>
+                    <p class="card-text">Black and white by Cheese</p>
+                    <a href="#" class="btn btn-primary">Buy</a>
+                </div>
+            </div>                    <div class="card" style="width: 18rem;">
+                <img src="../assets/art/cheese/Robot_cheese.jpg" class="card-img-top" alt="dismembered robot tied in cables">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Tied In Progress</h5>
+                    <p class="card-text">Black and white by Cheese</p>
+                    <a href="#" class="btn btn-primary">Buy</a>
+                </div>
+            </div>
         </section>
     </main>
     <footer>

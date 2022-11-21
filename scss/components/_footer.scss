@@ -1,14 +1,16 @@
 @import "../utility/color";
 
 footer {
+    background-color: black;
     display: flex;
+    margin-top: 20rem;
     justify-content: space-around;
-    margin-top: 10rem;
     text-decoration: none;
 }
 
 .social {
     width: 3rem;
+    margin-top: 1rem;
     margin-bottom: 2rem;
 }
 
