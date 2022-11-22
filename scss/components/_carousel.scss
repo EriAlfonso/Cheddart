@@ -1,0 +1,47 @@
+@import "../utility/map";
+@import"../utility/color";
+
+.Carouselbw{
+    width: map-get($stylemap, remcar);
+    height:map-get($stylemap, remcar);
+    margin: 1rem;
+    margin-bottom: 15rem;
+}
+
+.Carouselcolor{
+    width: map-get($stylemap, remcar);
+    height:map-get($stylemap, remcar);
+    margin: 1rem;
+    padding-top: 2rem;
+}
+
+.Carouseldigital{
+    width: map-get($stylemap, remcar);
+    height:map-get($stylemap, remcar);
+    margin: 1rem;
+    padding-top: 2rem;
+}
+
+.carousel-item{
+    object-fit: cover;
+    height: 100%;
+    .carousel-caption{
+        color: white;
+        text-shadow: 1px 1px 1px #000000
+    }
+}
+
+.carousel-control-prev{
+    color: rgb(0, 0, 0);
+    &:hover{
+        color: $hovercolor;
+    }
+}
+
+.carousel-control-next{
+    color:black;
+    &:hover{
+        color: $hovercolor;
+    }
+}
+

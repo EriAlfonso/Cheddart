@@ -12,6 +12,12 @@ footer {
     width: 3rem;
     margin-top: 1rem;
     margin-bottom: 2rem;
+
+    &:hover {
+        transition: 0ms;
+        transform: scale(1.5, 1.5);
+        border: 1rem;
+    }
 }
 
 .copyright {

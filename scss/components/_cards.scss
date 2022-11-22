@@ -1,11 +1,20 @@
 @import "../utility/color";
 
-.card{
+.card {
     background-color: rgb(0, 0, 0);
     border-color: $glow;
+    .btn {
+        color: white;
+        background-color: $backgroundcolor;
+        border-color: $hovercolor;
+        &:hover{
+            color: $backgroundcolor;
+            background-color:$glow;
+            text-shadow: 2px 2px 2px #ff9900 ;
+        }
+    }
 }
-.btn{
-    color:white ;
-    background-color: $backgroundcolor;
-    border-color: $hovercolor;
+
+.row{
+    gap: 2rem;
 }

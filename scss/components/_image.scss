@@ -1,9 +1,4 @@
-$stylemap: (
-    scale1:scale(1.1, 1.1),
-    remwidth:20rem,
-    scale2:scale(1.5, 1.5),
-    remcar:30rem,
-);
+@import "../utility/map";
 
 .homeimages {
     display: flex;
@@ -40,30 +35,6 @@ $stylemap: (
     display: flex;
     justify-content: flex-end;
     width: map-get($stylemap, remwidth );
-}
-
-.Carouselbw{
-    width: map-get($stylemap, remcar);
-    height:map-get($stylemap, remcar);
-    margin: 3rem;
-    margin-bottom: 20rem;
-}
-
-.Carouselcolor{
-    width: map-get($stylemap, remcar);
-    height:map-get($stylemap, remcar);
-    margin:3rem;
-}
-
-.Carouseldigital{
-    width: map-get($stylemap, remcar);
-    height:map-get($stylemap, remcar);
-    margin: 3rem;
-}
-
-.carousel-item{
-    object-fit: cover;
-    height: 100%;
 }
 
 .helpimage {
