@@ -1,42 +1,77 @@
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 769px) {
     .container {
         flex-direction: column;
     }
+
     .dropdown-menu {
         background-color: #000000;
-    
+
     }
-    
+
     .dropdown-item {
         background-color: #000000;
         color: white
     }
-    
+
     .dropdown-item:hover {
         background-color: rgb(1, 247, 13);
     }
 
-    .helptext{
+    .helptext {
         padding-bottom: 3rem;
         text-align: center;
     }
 
-    .hometext{
+    .hometext {
         text-align: center;
     }
-    
-    .Carouselbw{
-        width:20rem;
-        height:20rem;
+
+    .Carouselbw {
+        width: 20rem;
+        height: 20rem;
     }
-    
-    .Carouselcolor{
-        width:20rem;
-        height:20rem;
+
+    .Carouselcolor {
+        width: 20rem;
+        height: 20rem;
     }
-    
-    .Carouseldigital{
-        width:20rem;
-        height:20rem;
+
+    .Carouseldigital {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .profile_grid {
+        display: grid;
+        grid-template-columns: 1fr, ;
+        grid-template-areas:
+            "pic"
+            "bio"
+            "art";
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    .profile_grid {
+        display: grid;
+        width: 5rem;
+        grid-template-columns: 1fr;
+        grid-row: 1fr, 1fr, 1fr;
+        grid-template-areas:
+            "pic"
+            "bio"
+            "art";
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+
+    .profile_grid {
+        display: grid;
+        grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+        grid-template-areas:
+            "pic bio bio bio"
+            "art art art art";
     }
 }
