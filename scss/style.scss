@@ -1,12 +1,13 @@
 @import "./normalize/reset";
 @import "./utility/color";
 @import "./utility/map";
+@import "./utility/keframes";
 @import "./components/navbar";
 @import "./layout/flex";
-@import"./layout/grids";
 @import "./components/image";
 @import "./components/carousel";
 @import "./components/text";
 @import "./components/cards";
 @import "./components/footer";
+@import"./layout/grids";
 @import "./views/queries";

@@ -8,19 +8,53 @@
     justify-content: center;
     align-self: center;
     overflow: hidden;
-    border-radius:20%;
+    border-radius: 20%;
 }
 
 .art {
     img {
-    width: map-get($stylemap, remwidth);
-    margin-left: 2rem;
-    border-radius: 5%;
-    opacity: 0.8;
-    &:hover {
-        opacity: 1;
-        transition: 0ms;
-        transform: map-get($stylemap, scale1);
+        width: map-get($stylemap, remwidth);
+        margin-left: 2rem;
+        border-radius: 5%;
+        opacity: 0.8;
+
+        &:hover {
+            opacity: 1;
+            transition: 0ms;
+            transform: map-get($stylemap, scale1);
+        }
+    }
+}
+
+.profile_pic {
+    grid-area: pic;
+    z-index: 999;
+    width: 20em;
+    padding: 2rem;
+
+    .picture1 {
+        background-color: rgb(45, 194, 214);
+        clip-path: circle(50% at 50% 50%);
+    }
+
+}
+
+.profile_artwork {
+    grid-area: art;
+    display: flex;
+    gap: 2rem;
+    margin-top: 4rem;
+
+    img {
+        width: 20rem;
+        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+
+        &:hover {
+            transition: 0ms;
+            transform: scale(1.2, 1.2);
+            animation: circle 2s ;
+            animation-fill-mode: forwards;
+
         }
     }
 }
@@ -34,23 +68,23 @@
 .ShopShirt {
     display: flex;
     justify-content: flex-end;
-    width: map-get($stylemap, remwidth );
+    width: map-get($stylemap, remwidth);
 }
 
 .helpimage {
     display: flex;
     align-self: center;
     justify-content: center;
-    margin-top:4rem;
+    margin-top: 4rem;
+
     &:hover {
         transition: 0ms;
-        transform: map-get($stylemap, scale2 ) ;
+        transform: map-get($stylemap, scale2);
     }
 }
 
-.videos{
+.videos {
     position: relative;
     overflow: hidden;
     width: 100%;
 }
-

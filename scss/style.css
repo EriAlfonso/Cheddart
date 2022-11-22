@@ -26,6 +26,27 @@ img {
   height: auto;
 }
 
+@-webkit-keyframes circle {
+  0% {
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+            clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  }
+  100% {
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+            clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+  }
+}
+
+@keyframes circle {
+  0% {
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+            clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  }
+  100% {
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+            clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+  }
+}
 .navbar {
   background-color: rgb(0, 0, 0);
   --bs-navbar-brand-color: rgb(153, 153, 96);
@@ -121,12 +142,6 @@ img {
   justify-content: left;
 }
 
-.gridshop {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(4, 1fr);
-}
-
 .homeimages {
   display: flex;
   flex-shrink: 0;
@@ -148,6 +163,38 @@ img {
   opacity: 1;
   transition: 0ms;
   transform: scale(1.1, 1.1);
+}
+
+.profile_pic {
+  grid-area: pic;
+  z-index: 999;
+  width: 20em;
+  padding: 2rem;
+}
+.profile_pic .picture1 {
+  background-color: rgb(45, 194, 214);
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+}
+
+.profile_artwork {
+  grid-area: art;
+  display: flex;
+  gap: 2rem;
+  margin-top: 4rem;
+}
+.profile_artwork img {
+  width: 20rem;
+  -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+          clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+.profile_artwork img:hover {
+  transition: 0ms;
+  transform: scale(1.2, 1.2);
+  -webkit-animation: circle 2s;
+          animation: circle 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 
 .ShopImages {
@@ -255,6 +302,11 @@ main {
   padding: 2rem;
 }
 
+.profile_bio {
+  grid-area: bio;
+  padding: 2rem;
+}
+
 .card {
   background-color: rgb(0, 0, 0);
   border-color: rgb(255, 255, 0);
@@ -270,7 +322,7 @@ main {
   text-shadow: 2px 2px 2px #ff9900;
 }
 
-.row {
+.shop_row {
   gap: 2rem;
 }
 
@@ -296,6 +348,12 @@ footer {
 .copyright {
   display: flex;
   align-self: center;
+}
+
+.profile_grid {
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+  grid-template-areas: "pic bio bio bio" "art art art art";
 }
 
 @media only screen and (max-width: 700px) {
