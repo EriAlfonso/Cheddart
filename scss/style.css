@@ -51,6 +51,8 @@ img {
   background-color: rgb(0, 0, 0);
   --bs-navbar-brand-color: rgb(153, 153, 96);
   --bs-navbar-brand-hover-color: yellow;
+  padding: 0;
+  margin: 0;
 }
 
 .navbar-brand img {
@@ -79,6 +81,7 @@ img {
 }
 
 .dropdown-menu {
+  padding: 0;
   margin-left: 1rem;
   background-color: rgb(0, 0, 0);
 }

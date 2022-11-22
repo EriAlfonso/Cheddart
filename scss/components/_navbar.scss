@@ -4,6 +4,8 @@
     background-color: $backgroundcolor;
     --bs-navbar-brand-color: rgb(153, 153, 96);
     --bs-navbar-brand-hover-color: yellow;
+    padding: 0;
+    margin: 0;
 }
 
 .navbar-brand img {
@@ -33,6 +35,7 @@ margin-left: 1rem;
 }
 
 .dropdown-menu {
+    padding: 0;
     margin-left: 1rem;
     background-color: $backgroundcolor;
     & :hover {
